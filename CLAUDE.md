@@ -41,3 +41,5 @@ These are standing preferences for Claude when helping this user.
   "Tyson" (he is a DO, not an MD — never sign him "MD"), keeps a friendly
   peer-to-peer tone, and always closes by asking the candidate to text him
   directly at 415-867-4700 to coordinate a time to talk.
+- NEVER use the word "honestly" in drafted text — it's a trigger word for the
+  user (implies prior statements weren't honest).
