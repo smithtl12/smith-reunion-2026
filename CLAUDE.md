@@ -37,6 +37,30 @@ These are standing preferences for Claude when helping this user.
   current page payload (or rebuild the inner HTML), edit the `CANDIDATES`
   array, re-encrypt, commit on a feature branch, push, open a PR, and merge it
   (covered by the standing permission above).
+## Pond ecosystem tracker (`pond/`)
+
+- `pond/index.html` is a **password-protected, encrypted** pond ecosystem
+  tracker (pots, plants, fish, critters, pond-care log), private to the user,
+  served at `https://smithtl12.github.io/smith-reunion-2026/pond/`.
+- Encrypted exactly like the family + recruiting pages (gzip → AES-256-GCM,
+  key from PBKDF2-SHA256 with 150,000 iterations; DATA = ciphertext+tag,
+  base64). The gate lowercases + trims the typed password before deriving the
+  key.
+- **Deliberately unlisted** — do NOT link it from the reunion homepage, the
+  recruiting page, or anywhere else. It is for the user only.
+- Unlike recruiting, the encrypted payload contains only the **app**, no data:
+  the user adds pots/plants/fish and logs dated status entries (thriving,
+  struggling, reproducing, died…) right in the browser, and everything is
+  stored in `localStorage` on his device under the key `pond_tracker_v1`,
+  with Back up / Restore buttons (JSON file). So the inner HTML can be rebuilt
+  and re-encrypted at any time without losing his data. If he asks to "bake
+  in" his data, have him send a backup JSON (or paste it), seed it as initial
+  data in the app, and re-encrypt.
+- The password + maintenance instructions live in a Google Doc named
+  **"Pond tracker — password & how it works"** in the user's Google Drive.
+- To update: rebuild the inner HTML, re-encrypt the same way, commit on a
+  feature branch, push, open a PR, and merge it (standing permission).
+
 - Style note for drafting candidate emails: the user signs informally as just
   "Tyson" (he is a DO, not an MD — never sign him "MD"), keeps a friendly
   peer-to-peer tone, and always closes by asking the candidate to text him
