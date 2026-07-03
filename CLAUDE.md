@@ -37,11 +37,17 @@ These are standing preferences for Claude when helping this user.
   current page payload (or rebuild the inner HTML), edit the `CANDIDATES`
   array, re-encrypt, commit on a feature branch, push, open a PR, and merge it
   (covered by the standing permission above).
-## Pond ecosystem tracker (`pond/`)
+## Pond ecosystem tracker — "Tyosphere" (`pond/`)
 
 - `pond/index.html` is a **password-protected, encrypted** pond ecosystem
-  tracker (pots, plants, fish, critters, pond-care log), private to the user,
-  served at `https://smithtl12.github.io/smith-reunion-2026/pond/`.
+  tracker named **Tyosphere** (pots, plants, fish, critters, care log),
+  private to the user, served at
+  `https://smithtl12.github.io/smith-reunion-2026/pond/`.
+- The user's husband owns the `vintnervineyard` repo (vintnersvineyard.com),
+  which has a real cloud backend (login + database, entries sync across
+  devices). Standing direction from the user (2026-07-03): **if he asks for a
+  future app with automatic cloud saving, build it off vintnersvineyard**
+  rather than GitHub Pages + localStorage.
 - Encrypted exactly like the family + recruiting pages (gzip → AES-256-GCM,
   key from PBKDF2-SHA256 with 150,000 iterations; DATA = ciphertext+tag,
   base64). The gate lowercases + trims the typed password before deriving the
