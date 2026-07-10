@@ -66,6 +66,12 @@ These are standing preferences for Claude when helping this user.
   **"Pond tracker — password & how it works"** in the user's Google Drive.
 - To update: rebuild the inner HTML, re-encrypt the same way, commit on a
   feature branch, push, open a PR, and merge it (standing permission).
+- **Dates — the user is in California (Pacific time, PST/PDT).** When logging
+  dated tracker entries, use the *Pacific* date, anchored to what the user
+  calls "today" / "this morning" / "yesterday" — NOT a UTC system date (an
+  evening event in California is often already the next day in UTC, which has
+  mis-dated entries a day ahead before). When unsure which day, ask or default
+  to the user's stated local day.
 - **This is a TOP-DOWN aquarium — a ~2,100 gal in-ground tank viewed from
   above (looking down into the water), NOT sideways through glass.** This
   drives all stocking/aesthetic advice, so weigh it in every future chat:
