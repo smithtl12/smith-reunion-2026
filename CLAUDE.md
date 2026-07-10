@@ -74,12 +74,18 @@ These are standing preferences for Claude when helping this user.
     tank. The user has committed to **black sand** (already bought ~$300) and
     is keeping it; may blend in pool-filter sand to lift contrast.
   - Fish are **countershaded** (dark backs), so from above they camouflage
-    against dark sand. **Stock only fish that pop against black, top-down:**
-    (1) bright/light-bodied — white, gold, orange, red, yellow; (2) broad
-    body with color on the *back/top*; (3) surface/mid dwellers you see from
-    above. **Avoid torpedo/fusiform side-view fish** (rainbowfish, most
-    barbs, sharks — color lives on the flanks) and **tall-thin fish**
-    (angelfish — vanish to a thin edge from above).
+    against dark sand. What makes a fish pop top-down, in priority order:
+    **(1) brightness / color contrast against black** (white, gold, orange,
+    red, yellow) — this dominates; **(2) size** — bigger = easier to spot;
+    **(3) movement** — slow cruisers that bank and turn flash their color.
+    **Shape is a distant fourth.** A bright, large fish breaks the shape
+    rule: the red-devil angel (Trinity) is tall and thin yet pops
+    magnificently and is very easy to spot, and the bright incoming angels
+    should too. So the real thing to avoid is **dark or dull side-view
+    fish** — silver/drab torpedo fish whose color lives on the flanks
+    (rainbowfish disappointed for exactly this reason) — NOT tall fish per
+    se. Fish also get more visible as they grow (more size, and color
+    matures in), so a drab juvenile isn't the final verdict.
   - His proven top-down winners: **white cloud minnows, Florida flagfish,
     mollies, platies** (livebearers especially). Good future directions:
     more livebearers (swordtails, fancy mollies), killifish, gouramis,
