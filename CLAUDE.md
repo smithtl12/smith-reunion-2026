@@ -87,7 +87,9 @@ These are standing preferences for Claude when helping this user.
     se. Fish also get more visible as they grow (more size, and color
     matures in), so a drab juvenile isn't the final verdict.
   - His proven top-down winners: **white cloud minnows, Florida flagfish,
-    mollies, platies** (livebearers especially). Good future directions:
+    mollies, platies** (livebearers especially), and the **Bolivian rams**
+    — a bold, mid-water cichlid (unlike shy bottom-hugging German blue rams),
+    proof that the right cichlids show well top-down. Good future directions:
     more livebearers (swordtails, fancy mollies), killifish, gouramis,
     and gold/white/albino morphs. Rainbowfish have disappointed (side-view
     fish).
