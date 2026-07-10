@@ -66,6 +66,25 @@ These are standing preferences for Claude when helping this user.
   **"Pond tracker — password & how it works"** in the user's Google Drive.
 - To update: rebuild the inner HTML, re-encrypt the same way, commit on a
   feature branch, push, open a PR, and merge it (standing permission).
+- **This is a TOP-DOWN aquarium — a ~2,100 gal in-ground tank viewed from
+  above (looking down into the water), NOT sideways through glass.** This
+  drives all stocking/aesthetic advice, so weigh it in every future chat:
+  - The **sand floor is the whole visual background** (there is no back wall
+    to view fish against), so substrate color matters more than in a normal
+    tank. The user has committed to **black sand** (already bought ~$300) and
+    is keeping it; may blend in pool-filter sand to lift contrast.
+  - Fish are **countershaded** (dark backs), so from above they camouflage
+    against dark sand. **Stock only fish that pop against black, top-down:**
+    (1) bright/light-bodied — white, gold, orange, red, yellow; (2) broad
+    body with color on the *back/top*; (3) surface/mid dwellers you see from
+    above. **Avoid torpedo/fusiform side-view fish** (rainbowfish, most
+    barbs, sharks — color lives on the flanks) and **tall-thin fish**
+    (angelfish — vanish to a thin edge from above).
+  - His proven top-down winners: **white cloud minnows, Florida flagfish,
+    mollies, platies** (livebearers especially). Good future directions:
+    more livebearers (swordtails, fancy mollies), killifish, gouramis,
+    and gold/white/albino morphs. Rainbowfish have disappointed (side-view
+    fish).
 
 - Style note for drafting candidate emails: the user signs informally as just
   "Tyson" (he is a DO, not an MD — never sign him "MD"), keeps a friendly
