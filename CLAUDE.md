@@ -72,6 +72,10 @@ These are standing preferences for Claude when helping this user.
   evening event in California is often already the next day in UTC, which has
   mis-dated entries a day ahead before). When unsure which day, ask or default
   to the user's stated local day.
+- **Tank interior footprint:** 65⅜″ wide × 102″ long overall, in two depths —
+  a shallow **reef-side upper ledge/terrace** (65⅜″ × 33½″) and the **deep
+  side** (65⅜″ × 68½″). The temple/columns + white pool-sand sifter zone go on
+  the reef ledge; the black slag floor is the deep bottom.
 - **This is a TOP-DOWN aquarium — a ~2,100 gal in-ground tank viewed from
   above (looking down into the water), NOT sideways through glass.** This
   drives all stocking/aesthetic advice, so weigh it in every future chat:
