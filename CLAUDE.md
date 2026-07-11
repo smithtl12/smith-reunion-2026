@@ -76,6 +76,10 @@ These are standing preferences for Claude when helping this user.
   a shallow **reef-side upper ledge/terrace** (65⅜″ × 33½″) and the **deep
   side** (65⅜″ × 68½″). The temple/columns + white pool-sand sifter zone go on
   the reef ledge; the black slag floor is the deep bottom.
+  - **Water depth (sand in):** deep side **63″**, reef terrace **47½″** (sand
+    surface → water surface), so the terrace floor sits ~15½″ higher than the
+    deep floor. A **2½″ dry rim** (freeboard) sits above the current water
+    level.
 - **This is a TOP-DOWN aquarium — a ~2,100 gal in-ground tank viewed from
   above (looking down into the water), NOT sideways through glass.** This
   drives all stocking/aesthetic advice, so weigh it in every future chat:
