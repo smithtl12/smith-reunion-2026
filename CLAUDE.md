@@ -83,6 +83,33 @@ These are standing preferences for Claude when helping this user.
   - **Measured water volume ≈ 1,670 gal** gross (above the sand); ≈ 1,550–1,650
     gal effective after the brick/pots/rock displace some. (The old "~2,100
     gal" was a rough full-box estimate.)
+- **Life-support / equipment loop (the "Scotty build").** Plumbing is **¾″**
+  throughout. Flow order: **pump → heater → ball valve → activated-carbon
+  filter → UV → return to tank.** The carbon sits *after* the ball valve (so it
+  can be throttled/isolated for cartridge swaps) and *before* the UV (so the UV
+  gets polished, un-tinted water and stays the last, sterilizing step before
+  the water returns).
+  - **Heaters: TWO Hydro-Quip Pure Heat 2″ In-Line Compact, model PH301-15UP —
+    1.5 kW / 120 V each.** That's **~12.5 A actual draw**, NOT 20 A (the "20 A"
+    figure is the dedicated *circuit* each one needs, not the load). Put each
+    heater on its **own dedicated 20 A circuit** — two 1.5 kW heaters ≈ 25 A
+    total, too much to share one circuit. Many spa/whirlpool heaters have a
+    built-in pressure/flow switch (dry-fire protection) — confirm this model
+    does.
+  - **Temp control: one plug-in controller PER heater, rated ≥15 A / 1,875 W**
+    (e.g., BN-LINK). A standard **Inkbird ITC-308 is only 10 A / ~1,100 W — too
+    small** for a 1,500 W heater. No contactor or hardwiring needed at
+    120 V / 12.5 A; a plug-in unit is fine as long as it's the 15 A class.
+  - **Activated-carbon "insurance" filter:** Pentek Big Blue **#20** housing
+    (¾″ ports, matches the plumbing), Hydronix refillable cartridge, Neptune
+    aquarium-grade carbon. #20 chosen over #10 for more media + less flow
+    resistance. Rinse the carbon before loading; refresh ~monthly. Ideally an
+    isolation ball valve on **each** side of the housing for dry swaps.
+  - **Service order (carbon change):** heater OFF → pump OFF → close valve(s) →
+    open housing / swap cartridge → close up → pump ON, confirm flow → heater
+    ON. **Flow always before heat.** (Turning the pump off stops *pumping* but
+    NOT gravity/siphon draining out of an opened housing — the ball valve is
+    what actually seals the line.)
 - **This is a TOP-DOWN aquarium — a large in-ground tank (~1,670 gal measured;
   the old "~2,100 gal" was a rough estimate) viewed from above (looking down
   into the water), NOT sideways through glass.** This
