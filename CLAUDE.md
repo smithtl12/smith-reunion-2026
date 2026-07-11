@@ -80,8 +80,12 @@ These are standing preferences for Claude when helping this user.
     surface → water surface), so the terrace floor sits ~15½″ higher than the
     deep floor. A **2½″ dry rim** (freeboard) sits above the current water
     level.
-- **This is a TOP-DOWN aquarium — a ~2,100 gal in-ground tank viewed from
-  above (looking down into the water), NOT sideways through glass.** This
+  - **Measured water volume ≈ 1,670 gal** gross (above the sand); ≈ 1,550–1,650
+    gal effective after the brick/pots/rock displace some. (The old "~2,100
+    gal" was a rough full-box estimate.)
+- **This is a TOP-DOWN aquarium — a large in-ground tank (~1,670 gal measured;
+  the old "~2,100 gal" was a rough estimate) viewed from above (looking down
+  into the water), NOT sideways through glass.** This
   drives all stocking/aesthetic advice, so weigh it in every future chat:
   - The **sand floor is the whole visual background** (there is no back wall
     to view fish against), so substrate color matters more than in a normal
