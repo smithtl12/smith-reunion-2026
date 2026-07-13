@@ -66,12 +66,17 @@ These are standing preferences for Claude when helping this user.
   **"Pond tracker — password & how it works"** in the user's Google Drive.
 - To update: rebuild the inner HTML, re-encrypt the same way, commit on a
   feature branch, push, open a PR, and merge it (standing permission).
-- **Dates — the user is in California (Pacific time, PST/PDT).** When logging
-  dated tracker entries, use the *Pacific* date, anchored to what the user
-  calls "today" / "this morning" / "yesterday" — NOT a UTC system date (an
-  evening event in California is often already the next day in UTC, which has
-  mis-dated entries a day ahead before). When unsure which day, ask or default
-  to the user's stated local day.
+- **Dates — the user is in California (Pacific time, PST/PDT) and the system
+  clock is UTC. ALWAYS log tracker entries under the Pacific date — do the
+  conversion, do NOT paste the system date.** The system clock runs 7–8 h
+  AHEAD of Pacific, so any Pacific event from **~5 PM onward** ("tonight", "this
+  evening", "at sunset", late-night) is already the NEXT day in UTC — which
+  means the correct Pacific date is **the system date MINUS ONE**. Subtract it;
+  don't trust the system date for anything after Pacific afternoon. This exact
+  slip has mis-dated evening entries a day ahead more than once (temp readings,
+  the buce gluing, the crystal-clear night view). Anchor to the day the user
+  names ("today" / "this morning" / "last night" / "yesterday"); if the local
+  day is genuinely ambiguous, ask before writing it.
 - **Tank interior footprint:** 65⅜″ wide × 102″ long overall, in two depths —
   a shallow **reef-side upper ledge/terrace** (65⅜″ × 33½″) and the **deep
   side** (65⅜″ × 68½″). The temple/columns + white pool-sand sifter zone go on
