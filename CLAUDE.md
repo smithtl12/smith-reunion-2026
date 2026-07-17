@@ -15,6 +15,12 @@ These are standing preferences for Claude when helping this user.
   irreversible actions, e.g. deleting a repository, force-pushing over shared
   history, or removing live/published content.
 
+- **Shared finances (Tyson & Scott).** Tyson and his husband Scott (Scotty, who
+  owns the `vintnervineyard` repo) share all finances and the same credit cards —
+  it's one shared pot. They only discuss purchases with each other that **exceed
+  $1,000**. So for anything under $1,000, don't flag "check with Scott" or worry
+  about whose account or card a purchase is on — it's a non-issue.
+
 ## Anesthesia recruiting tracker (`recruiting/`)
 
 - `recruiting/index.html` is a **password-protected, encrypted** candidate
