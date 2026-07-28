@@ -132,6 +132,18 @@ These are standing preferences for Claude when helping this user.
     more livebearers (swordtails, fancy mollies), killifish, gouramis,
     and gold/white/albino morphs. Rainbowfish have disappointed (side-view
     fish).
+  - **Angels are the EXCEPTION to the pop rule — a curated COLLECTION, not
+    top-down performers.** His angel group (the pantheon) is **deliberately
+    blue-dominant by design** (Philippine Blue / Pinoy / snakeskin / leopard
+    morphs) — all but three are blues, and the three warms are a **grouped
+    trio** chosen to read as a natural family, not scattered odd-ones-out. He
+    prizes **collection harmony** over body-color pop here, so do NOT steer him
+    toward warm angels or off blues. The blues still show top-down via
+    **features, not body color** — red crowns (top-facing), red eyes (a
+    wild-type quality trait, not albino), and snakeskin/leopard patterning.
+    Body-color pop is the SCHOOLERS' job (livebearers, rainbows, denisons);
+    the angels bring the jewelry. He actively hunts blue-based standouts (e.g.
+    a red-crowned Pinoy / "Black Flame" line from CA breeder @nicefishtank).
 
 - Style note for drafting candidate emails: the user signs informally as just
   "Tyson" (he is a DO, not an MD — never sign him "MD"), keeps a friendly
