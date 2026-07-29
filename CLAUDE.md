@@ -146,6 +146,16 @@ These are standing preferences for Claude when helping this user.
     Body-color pop is the SCHOOLERS' job (livebearers, rainbows, denisons);
     the angels bring the jewelry. He actively hunts blue-based standouts (e.g.
     a red-crowned Pinoy / "Black Flame" line from CA breeder @nicefishtank).
+  - **Character/boldness delights him as much as color — maybe more (his own
+    realization, summer 2026).** The fish he's *most* delighted by is the
+    **longfin rosy barb**, and NOT for color but for **personality** —
+    fearless, curious, in-your-face, hand-nibbling, greets him at the water;
+    the kind of thing you can't spec from a listing photo. So when advising
+    future stock, weigh **boldness / interactivity FIRST and let color be the
+    tiebreaker**: the winners are **bold, out-in-the-open fish that engage**
+    (barbs, livebearers, the hand-taming pond-born molly "Mayor," the pearl
+    gouramis' calming presence). A shy "pretty statue" disappoints no matter
+    how it looks — it's why the balloon ram he skipped would've been a letdown.
 
 - Style note for drafting candidate emails: the user signs informally as just
   "Tyson" (he is a DO, not an MD — never sign him "MD"), keeps a friendly
