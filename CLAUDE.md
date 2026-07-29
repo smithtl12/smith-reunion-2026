@@ -118,7 +118,9 @@ These are standing preferences for Claude when helping this user.
     red, yellow) — this dominates; **(2) size** — bigger = easier to spot;
     **(3) movement** — slow cruisers that bank and turn flash their color.
     **Shape is a distant fourth.** A bright, large fish breaks the shape
-    rule: the red-devil angel (Trinity) is tall and thin yet pops
+    rule: the red-devil angel (Eos — the name
+    "Trinity" was later reassigned to an electric blue acara, so it no
+    longer refers to this fish) is tall and thin yet pops
     magnificently and is very easy to spot, and the bright incoming angels
     should too. So the real thing to avoid is **dark or dull side-view
     fish** — silver/drab torpedo fish whose color lives on the flanks
