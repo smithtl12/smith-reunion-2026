@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pacifica Reef — Build Plan</title>
+<meta name="robots" content="noindex, nofollow" />
+<meta name="theme-color" content="#04263f" />
+<meta name="apple-mobile-web-app-title" content="Pacifica Reef" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Quicksand:wght@400;500;600;700&display=swap');
+  * { box-sizing: border-box; }
+  :root{
+    --deep:#04263f; --deep2:#062f4d; --mid:#0a4a6b; --teal:#12b3a6; --aqua:#5fe3d3;
+    --coral:#ff7a59; --coral2:#ffb199; --gold:#f4c667; --ink:#eaf6fb; --muted:#a9c8d6;
+    --card:rgba(9,58,88,0.42); --line:rgba(95,227,211,0.28);
+  }
+  html{scroll-behavior:smooth;}
+  body{ margin:0; font-family:'Quicksand',system-ui,sans-serif; color:var(--ink);
+    background:
+      radial-gradient(1200px 600px at 80% -10%, rgba(18,179,166,0.20), transparent 60%),
+      radial-gradient(900px 500px at 0% 20%, rgba(255,122,89,0.10), transparent 55%),
+      linear-gradient(180deg,#04263f 0%, #052537 40%, #041a2b 100%);
+    background-attachment:fixed; line-height:1.6; }
+  .wrap{ max-width:900px; margin:0 auto; padding:1.4rem; }
+  header.hero{ text-align:center; padding:3.2rem 1.2rem 1.6rem; }
+  .kicker{ letter-spacing:0.32em; text-transform:uppercase; font-size:0.72rem; color:var(--aqua);
+    font-weight:700; }
+  h1{ font-family:'Fraunces',Georgia,serif; font-weight:600; font-size:2.5rem; margin:0.5rem 0 0.4rem;
+    color:#fff; line-height:1.1; letter-spacing:-0.01em; }
+  .dek{ font-size:1.08rem; color:var(--muted); max-width:640px; margin:0.4rem auto 0; }
+  .wave{ font-size:2.2rem; filter:drop-shadow(0 6px 18px rgba(18,179,166,0.5)); }
+  .stagechip{ display:inline-block; margin-top:1.1rem; padding:0.35rem 0.9rem; border-radius:999px;
+    background:rgba(244,198,103,0.14); border:1px solid rgba(244,198,103,0.4); color:var(--gold);
+    font-size:0.82rem; font-weight:700; letter-spacing:0.04em; }
+  nav.toc{ display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; margin:1.6rem 0 0.6rem; }
+  nav.toc a{ font-size:0.82rem; color:var(--ink); text-decoration:none; padding:0.4rem 0.8rem;
+    border:1px solid var(--line); border-radius:999px; background:rgba(255,255,255,0.03);
+    transition:all .15s ease; }
+  nav.toc a:hover{ background:rgba(95,227,211,0.14); border-color:var(--aqua); }
+  section{ background:var(--card); border:1px solid var(--line); border-radius:18px;
+    padding:1.6rem 1.5rem; margin:1.2rem 0; backdrop-filter:blur(4px);
+    box-shadow:0 18px 44px rgba(0,0,0,0.28); }
+  h2{ font-family:'Fraunces',Georgia,serif; font-weight:600; font-size:1.5rem; color:#fff;
+    margin:0 0 0.2rem; display:flex; align-items:center; gap:0.6rem; }
+  h2 .n{ font-size:0.8rem; font-family:'Quicksand'; font-weight:700; color:var(--deep);
+    background:var(--aqua); width:1.7rem; height:1.7rem; border-radius:50%; display:inline-flex;
+    align-items:center; justify-content:center; flex:0 0 auto; }
+  h3{ font-size:1.02rem; color:var(--aqua); margin:1.4rem 0 0.3rem; font-weight:700; }
+  p{ margin:0.5rem 0; }
+  .lead{ color:var(--muted); }
+  ul{ margin:0.4rem 0 0.6rem; padding-left:1.2rem; }
+  li{ margin:0.3rem 0; }
+  strong{ color:#fff; }
+  .why{ border-left:3px solid var(--coral); background:rgba(255,122,89,0.08);
+    padding:0.7rem 0.9rem; border-radius:0 10px 10px 0; margin:0.8rem 0; font-size:0.96rem; }
+  .why b{ color:var(--coral2); }
+  .fw{ border-left:3px solid var(--teal); background:rgba(18,179,166,0.08);
+    padding:0.7rem 0.9rem; border-radius:0 10px 10px 0; margin:0.8rem 0; font-size:0.96rem; }
+  .fw b{ color:var(--aqua); }
+  table{ width:100%; border-collapse:collapse; margin:0.8rem 0; font-size:0.92rem; }
+  th,td{ text-align:left; padding:0.55rem 0.6rem; border-bottom:1px solid rgba(95,227,211,0.16);
+    vertical-align:top; }
+  th{ color:var(--aqua); font-size:0.74rem; letter-spacing:0.08em; text-transform:uppercase; }
+  td.price{ color:var(--gold); font-weight:600; white-space:nowrap; }
+  .total td{ border-top:2px solid var(--line); border-bottom:none; font-weight:700; color:#fff;
+    padding-top:0.7rem; }
+  .grid{ display:grid; grid-template-columns:1fr 1fr; gap:0.8rem; margin:0.8rem 0; }
+  @media(max-width:620px){ .grid{ grid-template-columns:1fr; } h1{font-size:2rem;} }
+  .tile{ background:rgba(255,255,255,0.04); border:1px solid var(--line); border-radius:12px;
+    padding:0.9rem 1rem; }
+  .tile .big{ font-family:'Fraunces',serif; font-size:1.35rem; color:#fff; }
+  .tile .lab{ font-size:0.75rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.08em; }
+  .phase{ position:relative; padding:0.4rem 0 0.4rem 1.4rem; margin:0.2rem 0;
+    border-left:2px solid var(--line); }
+  .phase::before{ content:''; position:absolute; left:-7px; top:0.9rem; width:12px; height:12px;
+    border-radius:50%; background:var(--aqua); box-shadow:0 0 0 4px rgba(95,227,211,0.15); }
+  .phase h4{ margin:0.2rem 0; color:#fff; font-size:1.02rem; }
+  .phase .when{ font-size:0.78rem; color:var(--gold); font-weight:700; text-transform:uppercase;
+    letter-spacing:0.06em; }
+  .targets{ display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:0.6rem; }
+  .targets div{ background:rgba(4,38,63,0.6); border:1px solid var(--line); border-radius:10px;
+    padding:0.6rem; text-align:center; }
+  .targets .v{ color:var(--aqua); font-weight:700; font-size:1.05rem; }
+  .targets .k{ font-size:0.72rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
+  .note{ font-size:0.88rem; color:var(--muted); }
+  footer{ text-align:center; padding:2rem 1rem 3rem; color:var(--muted); font-size:0.86rem; }
+  a.inline{ color:var(--aqua); }
+  .divetag{ display:inline-block; font-size:0.78rem; color:var(--coral2); background:rgba(255,122,89,0.1);
+    border:1px solid rgba(255,122,89,0.3); border-radius:999px; padding:0.15rem 0.6rem; margin:0.15rem 0.2rem 0 0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="wave">🐠🪸🌊</div>
+    <div class="kicker">A first reef, done right</div>
+    <h1>The Pacifica Reef</h1>
+    <p class="dek">A side-view saltwater reef for the dining room in Pacifica —
+      a personal dive site on the wall, looking out at the real Pacific.</p>
+    <span class="stagechip">Stage: Planning · nothing bought yet</span>
+    <nav class="toc">
+      <a href="#different">What's different</a>
+      <a href="#size">Tank &amp; room</a>
+      <a href="#gear">Equipment</a>
+      <a href="#budget">Budget</a>
+      <a href="#cycle">Cycling</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#stock">Stocking</a>
+    </nav>
+  </header>
+
+  <section id="different">
+    <h2><span class="n">1</span> Reef vs. freshwater — what actually changes</h2>
+    <p class="lead">You already run a big pond, so you know cycling, husbandry, and reading water.
+      A reef isn't harder so much as it's <strong>stricter about stability</strong> and adds a
+      few disciplines freshwater never asked of you. Here's the translation.</p>
+
+    <div class="fw"><b>You already know this →</b> nitrogen cycle, patience, slow stocking,
+      watching animals for behavior, not overfeeding, big-water-volume-is-forgiving.
+      All of it carries straight over.</div>
+
+    <h3>The genuinely new stuff</h3>
+    <ul>
+      <li><strong>Salinity is a parameter you now own.</strong> Target <strong>35 ppt / SG 1.026</strong>,
+        measured with a refractometer. It must stay steady — you top off <em>evaporation</em> with
+        <em>fresh</em> RO/DI (the salt stays behind), not saltwater. An auto-top-off (ATO) does this for you.</li>
+      <li><strong>The rock <em>is</em> the filter.</strong> Live rock + sand host the bacteria — there's
+        no pond-style canister doing the biology. This is the "Berlin method." Your sump adds a skimmer,
+        heater, and space, not a filter cartridge.</li>
+      <li><strong>A protein skimmer.</strong> No freshwater equivalent. It strips dissolved organics out
+        as foam <em>before</em> they rot into nitrate/phosphate. On a reef it runs 24/7 and is not optional.</li>
+      <li><strong>Light is food, not just viewing.</strong> Corals photosynthesize — the LED spectrum and
+        intensity (PAR) literally feed them. This is the biggest mental shift from freshwater plants.</li>
+      <li><strong>Strong, turbulent flow.</strong> Reefs want way more current than a pond — wavemakers
+        keep corals clean and fed. Think "surge," not "gentle."</li>
+      <li><strong>The chemistry trio: Alkalinity, Calcium, Magnesium.</strong> Growing corals consume these
+        to build skeleton, so you test and replenish them. This is the new weekly rhythm; on a small first
+        reef it's easy, and you scale up dosing only as coral demand grows.</li>
+      <li><strong>Quarantine matters far more.</strong> Marine ich and velvet are faster and deadlier than
+        anything in freshwater. A cheap bare quarantine tub for new fish is the single best insurance a
+        first reef can buy.</li>
+      <li><strong>RO/DI water, always.</strong> Even your soft Hetch Hetchy tap carries chloramine and trace
+        phosphate/silicate that feed nuisance algae. More on why your water is actually a head start below.</li>
+    </ul>
+
+    <div class="why"><b>Your Pacifica water is a gift.</b> Hetch Hetchy is very soft / low-TDS, so your
+      RO/DI unit barely has to work — the membrane lasts longer and hits 0 TDS easily. You still run everything
+      through RO/DI (soft ≠ clean of chloramine and nutrients), but you're starting from an easier place than
+      most reefers.</div>
+
+    <div class="why"><b>Your cool, foggy coast is another gift.</b> Reef tanks fight <em>heat</em>, not cold —
+      pumps and lights dump warmth, and most reefers battle summer highs with chillers. In Pacifica's mild
+      ~55–65°F rooms, your heaters do the work and you can very likely <strong>skip a chiller entirely</strong>.
+      That's real money and noise saved.</div>
+  </section>
+
+  <section id="size">
+    <h2><span class="n">2</span> Tank size &amp; fitting the room</h2>
+    <p class="lead">Two rules pull against each other: <strong>bigger water is more stable</strong> (more
+      forgiving of a beginner's mistakes — you know this from the pond), but <strong>a condo has a floor</strong>.
+      The sweet spot for a first reef showpiece lands around a 4–5&nbsp;foot tank.</p>
+
+    <div class="grid">
+      <div class="tile"><div class="lab">Target size</div>
+        <div class="big">6-foot (~180g)</div>
+        <div class="note">Tyson's pick — a proper showpiece. <strong>Pending a second-floor structural
+          check</strong> (see floor note). Graceful fallback if the floor's marginal: a 5-foot (~150g).</div></div>
+      <div class="tile"><div class="lab">Style for "a window on the reef"</div>
+        <div class="big">Low-iron, sump below</div>
+        <div class="note">Rimless <em>low-iron (starphire) glass</em> for crystal-clear side viewing, with
+          a sump hidden in the cabinet. A peninsula/room-divider shape can read like a lit dive window —
+          worth considering for a dining room.</div></div>
+    </div>
+
+    <div class="why"><b>Your room — the north wall (confirmed July 2026).</b> Going where the silver sunburst
+      mirror &amp; console are now, on the <em>north</em> wall (~8&nbsp;ft, to be measured), with the
+      <em>west</em> window and its evening ocean sun to one side. An ~8&nbsp;ft wall easily holds a
+      <strong>6-foot tank</strong> with working room each side, and at 5'10″ the water sits right at eye level
+      for a true "dive window." Two things to settle before buying: (1) the <strong>second-floor floor
+      structure</strong> — the make-or-break for a 6-footer (see floor note); (2) the <strong>west sun</strong>,
+      an easy design-around (see window note).</div>
+
+    <div class="why"><b>Managing the west window (evening sun).</b> Uncontrolled sunlight is the classic fuel
+      for nuisance algae in a young reef and can add unpredictable heat — on a reef your <em>LEDs</em> feed the
+      corals, so sun is a wildcard to tame, especially in year one. Three reasons it's easily managed here:
+      the tank sits <em>perpendicular</em> to the window, so sun rakes the <strong>short end/side, not your
+      main (south-facing) viewing pane</strong> — little glare where it counts; your existing sheers plus a
+      simple light-filtering shade for the strongest late-day hours handle the first year (lean into the
+      gorgeous evening glow once the reef is mature); and a temperature controller with a phone alert covers
+      the rare hot, clear evening. Not a dealbreaker — just a "design around it" detail.</div>
+
+    <h3>How to think about the size choice</h3>
+    <ul>
+      <li><strong>Don't go tiny to "start safe."</strong> Nano reefs (&lt;30g) swing fast and punish beginners.
+        More water = slower swings = more forgiving. A ~90–150g is genuinely an <em>easier</em> first reef than
+        a 20g.</li>
+      <li><strong>Match length to the wall and the view.</strong> A 5-foot tank at dining-table eye level is a
+        stunning "dive site on the wall." Measure the wall, leave room to open the cabinet, and picture where
+        you'll sit and look in.</li>
+      <li><strong>Height: 24″ is plenty.</strong> Very tall/deep tanks get hard to reach into and need punchier
+        (pricier) light to drive corals on the bottom. Standard ~24″ height keeps maintenance humane.</li>
+    </ul>
+
+    <div class="why"><b>Floor loading — the one thing to confirm first (2nd floor).</b> A filled <em>6-foot</em>
+      system (water + rock + sand + glass + stand + sump) runs about <strong>2,500–2,900&nbsp;lb — over a ton</strong>
+      in a 6&nbsp;×&nbsp;2&nbsp;ft strip, roughly a small car parked in one spot, permanently. On a slab that's
+      nothing; on a <strong>second floor it depends entirely on the floor structure</strong>.
+      <br/><br/>
+      <b>The pivotal clue:</b> the "concrete, maybe fiberglass" subfloor Tyson saw under the carpet (building is
+      late-1970s). Two possibilities with opposite answers: <em>(a) a real concrete structure</em> (slab or
+      concrete plank — common in that-era condos) → carries far more than wood, a 6-footer is very likely fine;
+      <em>(b) a lightweight/gypsum-concrete topping</em> (often fiber-reinforced — the "fiberglass") poured over
+      plywood + <strong>wood joists</strong> for soundproofing → the wood joists underneath are still the limit,
+      and the topping only adds weight. Knowing which is the whole ballgame.
+      <br/><br/>
+      <b>How we settle it (easy → thorough):</b> (1) ask the HOA / building manager for construction type or the
+      original structural drawings — condos usually have these, often definitive, free; (2) check the building
+      docs from purchase/listing; (3) if still unclear, a one-visit <strong>structural engineer (~$300–600)</strong>
+      before buying — cheap certainty for a &gt;$1k build on a shared second floor. <em>Regardless of type:</em>
+      place the tank toward the <strong>corner by the west exterior wall</strong> (stiffest spot) with its long
+      axis <strong>spanning across the joists</strong>. Also, condo-specific: check CC&amp;Rs for water/aquarium
+      rules, confirm insurance is comfortable, and build in <strong>leak detection + auto-shutoff</strong> to
+      protect the unit below.
+      <br/><br/>
+      <b>Status:</b> floor structure unknown → to confirm before purchase. Not a "no" to the 6-footer — big tanks
+      live on upper floors all the time once the floor's confirmed and placement is smart.</div>
+
+    <div class="why"><b>Two more dining-room touches.</b> (1) <em>Quiet.</em> You'll eat next to this thing —
+      spec DC-controllable pumps and a quiet skimmer so it hums, not roars. (2) <em>Earthquake + water.</em>
+      It's California and it's a wood floor: a level, secured stand, a drip tray / leak sensor under the cabinet,
+      and an ATO with a failsafe keep a small "oops" from becoming a floor repair.</div>
+  </section>
+
+  <section id="gear">
+    <h2><span class="n">3</span> Equipment list</h2>
+    <p class="lead">Grouped by job. Quantities/sizing assume the ~120g starting point. We'll pick exact
+      models when you're ready — this is the shopping map.</p>
+
+    <h3>The core system</h3>
+    <ul>
+      <li><strong>Display tank + stand + sump</strong> — low-iron rimless, drilled for an overflow, with a
+        sump in the cabinet (holds the skimmer, heaters, return pump, and a refugium).</li>
+      <li><strong>Live rock + sand</strong> — the biological filter and your aquascape. ~1–1.5 lb rock/gal and
+        a shallow sand bed. Dry/cured rock cycled up is cleanest (no pest hitchhikers); a little live rock or
+        "bio-brick" seeds the bacteria.</li>
+      <li><strong>Return pump</strong> — a quiet DC pump pushing water sump→display.</li>
+      <li><strong>Wavemakers / powerheads</strong> — 2× controllable for turbulent reef flow.</li>
+    </ul>
+
+    <h3>Life support</h3>
+    <ul>
+      <li><strong>Protein skimmer</strong> — sized a bit above your volume; the heart of nutrient control.</li>
+      <li><strong>Heater(s) + controller</strong> — two smaller heaters (redundancy) on a separate temperature
+        controller so one stuck heater can't cook the tank.</li>
+      <li><strong>Reef LED lighting</strong> — 2–3 quality tunable fixtures (e.g. Radion / AI Hydra / Reefi class)
+        for coral-driving spectrum and PAR, on a slow sunrise/sunset schedule.</li>
+      <li><strong>Auto top-off (ATO)</strong> — replaces evaporated water with RO/DI automatically to hold
+        salinity steady. Get one with a redundant/float failsafe.</li>
+    </ul>
+
+    <h3>Water &amp; testing (your new water station)</h3>
+    <ul>
+      <li><strong>RO/DI unit</strong> — makes your source water. Your soft tap means long membrane life.</li>
+      <li><strong>Salt mix + mixing station</strong> — a brute can + small pump + heater to pre-mix and store
+        saltwater and fresh top-off.</li>
+      <li><strong>Refractometer</strong> — the one true salinity tool (calibrate with fluid).</li>
+      <li><strong>Test kits</strong> — Alkalinity, Calcium, Magnesium, Nitrate, Phosphate (plus ammonia during
+        cycle). A Hanna checker or two for alk/phosphate is worth it.</li>
+    </ul>
+
+    <h3>Grow-into-it (add later, not day one)</h3>
+    <ul>
+      <li><strong>Dosing pumps</strong> — automate alk/cal/mag once corals grow enough to need it.</li>
+      <li><strong>Aquarium controller (e.g. Apex)</strong> — monitors temp/level/leaks, controls pumps and
+        lights, and texts you if something's wrong. For a living-room showpiece, this is the "sleep at night"
+        upgrade — great second-phase buy.</li>
+      <li><strong>Quarantine tub</strong> — cheap, bare, for new fish. Buy it before your first fish.</li>
+    </ul>
+  </section>
+
+  <section id="budget">
+    <h2><span class="n">4</span> Budget (realistic, ~120g)</h2>
+    <p class="lead">Reef costs more than freshwater — the gear is life-support, not decoration. Here's an honest
+      range for the <em>build</em>, before livestock. "Solid" is quality-that-lasts without chasing the flagship
+      of everything.</p>
+
+    <table>
+      <thead><tr><th>Item</th><th>Budget-solid</th><th>Premium</th></tr></thead>
+      <tbody>
+        <tr><td>Tank + stand + sump</td><td class="price">$1,500</td><td class="price">$3,500</td></tr>
+        <tr><td>Reef LED lighting (2–3)</td><td class="price">$700</td><td class="price">$1,800</td></tr>
+        <tr><td>Protein skimmer</td><td class="price">$300</td><td class="price">$700</td></tr>
+        <tr><td>Return pump + 2 wavemakers</td><td class="price">$350</td><td class="price">$800</td></tr>
+        <tr><td>Heaters + controller</td><td class="price">$120</td><td class="price">$250</td></tr>
+        <tr><td>RO/DI + salt + mixing station</td><td class="price">$400</td><td class="price">$800</td></tr>
+        <tr><td>Refractometer + test kits</td><td class="price">$200</td><td class="price">$450</td></tr>
+        <tr><td>Live rock + sand</td><td class="price">$400</td><td class="price">$900</td></tr>
+        <tr><td>Auto top-off (ATO)</td><td class="price">$70</td><td class="price">$150</td></tr>
+        <tr><td>Quarantine tub + basics</td><td class="price">$120</td><td class="price">$250</td></tr>
+        <tr class="total"><td>Build subtotal</td><td class="price">≈ $4,200</td><td class="price">≈ $9,500</td></tr>
+      </tbody>
+    </table>
+    <p class="note">Then, spread over the first year and beyond: <strong>livestock + corals</strong> (grow slowly
+      — hundreds up front, more as you go), an optional <strong>controller/dosing</strong> upgrade
+      (~$400–1,200), and ongoing <strong>consumables</strong> (salt, RO/DI filters, test reagents, top-up
+      supplements) — call it $60–120/month once running. The reef is a build-over-time project, not a one-cart
+      purchase — which suits how you like to work.</p>
+  </section>
+
+  <section id="cycle">
+    <h2><span class="n">5</span> Cycling — same idea, saltwater flavor</h2>
+    <p class="lead">The nitrogen cycle you know from the pond is exactly the same here: ammonia → nitrite →
+      nitrate, driven by bacteria colonizing the rock. What's different is <em>where</em> it lives (the rock,
+      not a filter) and a very normal <em>ugly phase</em> on the way to clear.</p>
+
+    <div class="phase"><div class="when">Step 1 · set the stage</div>
+      <h4>Salt in, rock in, flow &amp; heat on</h4>
+      <p>Fill with RO/DI mixed to 35 ppt / SG 1.026, heat to ~78°F, aquascape your rock, run the pumps and
+        skimmer. No light needed yet (light now just grows algae).</p></div>
+    <div class="phase"><div class="when">Step 2 · seed &amp; feed the bacteria</div>
+      <h4>Add a bacteria starter + an ammonia source</h4>
+      <p>Bottled nitrifying bacteria plus a small ammonia source (or a raw shrimp, or live rock doing it
+        naturally) gets the colony going. Then you wait and test — just like the pond, patience is the tool.</p></div>
+    <div class="phase"><div class="when">Step 3 · watch the numbers turn over</div>
+      <h4>Ammonia spikes, then nitrite, then both hit zero</h4>
+      <p>Usually ~2–6 weeks. When a dose of ammonia clears to <strong>0 ammonia &amp; 0 nitrite</strong> within
+        a day and you just have some nitrate, the biofilter is alive. Do a water change to knock nitrate down.</p></div>
+    <div class="phase"><div class="when">Step 4 · ride out the "ugly stage"</div>
+      <h4>Diatoms &amp; a little algae — totally normal</h4>
+      <p>A brown diatom film (then maybe some hair algae or cyano) blooms as a young tank finds balance. This
+        rattles new reefers, but it's expected and temporary. Don't nuke it — stay patient, keep nutrients in
+        check, and let a cleanup crew and time settle it. This is the phase where your pond-keeper patience is
+        a superpower.</p></div>
+    <div class="phase"><div class="when">Step 5 · cleanup crew, then first fish</div>
+      <h4>Snails/hermits first; one or two hardy fish next</h4>
+      <p>A cleanup crew (CUC) grazes the algae as the tank matures. A week or two later, add your first hardy
+        fish (a clownfish is the classic — bulletproof and full of character). Slowly.</p></div>
+
+    <h3>Your target parameters (mixed reef)</h3>
+    <div class="targets">
+      <div><div class="v">78°F</div><div class="k">Temp</div></div>
+      <div><div class="v">1.026</div><div class="k">Salinity SG</div></div>
+      <div><div class="v">8–9</div><div class="k">Alk dKH</div></div>
+      <div><div class="v">420–440</div><div class="k">Calcium</div></div>
+      <div><div class="v">1300–1350</div><div class="k">Magnesium</div></div>
+      <div><div class="v">&lt;10</div><div class="k">Nitrate</div></div>
+      <div><div class="v">0.03–0.1</div><div class="k">Phosphate</div></div>
+      <div><div class="v">0 / 0</div><div class="k">Ammonia / Nitrite</div></div>
+    </div>
+    <p class="note">The golden rule of reef: <strong>stability beats perfection</strong>. A steady, slightly-off
+      number is better than a "perfect" number you keep chasing up and down. Slow and consistent — your style.</p>
+  </section>
+
+  <section id="roadmap">
+    <h2><span class="n">6</span> The "first reef, done right" roadmap</h2>
+    <p class="lead">Deliberately unhurried. Each phase earns the next. Most first-reef heartbreak comes from
+      rushing phases 2–4 — and rushing is the opposite of how you like to do things.</p>
+
+    <div class="phase"><div class="when">Phase 0 · now — learn &amp; decide</div>
+      <h4>Lock the vision</h4>
+      <p>Pick the tank size &amp; spot (floor-load check), decide budget tier, and settle the <em>look</em> you
+        want (which of your dives are we recreating?). Nothing bought — just clarity.</p></div>
+    <div class="phase"><div class="when">Phase 1 · weeks 1–2 — the water muscle</div>
+      <h4>Stand up the gear &amp; the water station</h4>
+      <p>Tank/stand/sump in place and leak-tested, RO/DI and mixing station running, salt mixed, heaters and
+        skimmer on. Get comfortable making and storing water before livestock depend on it.</p></div>
+    <div class="phase"><div class="when">Phase 2 · weeks 2–8 — aquascape &amp; cycle</div>
+      <h4>Build the reef structure, then cycle it</h4>
+      <p>Design an open, stable rockscape with caves and flow paths (this is your dive site's bones). Cycle
+        fully. Ride the ugly stage. No shortcuts here.</p></div>
+    <div class="phase"><div class="when">Phase 3 · month 2–3 — first life</div>
+      <h4>Cleanup crew, then a hardy fish or two</h4>
+      <p>Dial in stability over a few weeks of small water changes and testing. Prove you can hold salinity,
+        temp, and nutrients steady. <em>Set up the quarantine tub now.</em></p></div>
+    <div class="phase"><div class="when">Phase 4 · month 3–5 — first corals</div>
+      <h4>Easy softies &amp; LPS, lights ramped low</h4>
+      <p>Start with forgiving corals — zoanthids, mushrooms, leathers, then hammer/frogspawn/torch (euphyllia)
+        and acans. Begin the weekly alk/cal/mag testing rhythm. Watch how each coral responds before adding more.</p></div>
+    <div class="phase"><div class="when">Phase 5 · month 6+ — grow the reef</div>
+      <h4>Stock slowly toward the dream</h4>
+      <p>Add fish a few at a time (all quarantined), let the coral garden fill in, and only much later — once the
+        tank is mature and rock-steady — consider the fussier SPS corals. Add the controller/dosing upgrade when
+        coral demand and your comfort say it's time.</p></div>
+
+    <div class="why"><b>The one habit that makes or breaks a first reef:</b> a light, boring, consistent weekly
+      routine — test, small water change, top-off check, glance at every animal. You already do exactly this with
+      the pond. Reef rewards the patient keeper, and that's you.</div>
+  </section>
+
+  <section id="stock">
+    <h2><span class="n">7</span> Stocking — your dive site (the fun chapter, later)</h2>
+    <p class="lead">This is where we'll spend real time once the tank is cycling — and where "feels like my
+      favorite dives" gets specific. A taste of the direction, tuned to how you pick animals (character and
+      wellbeing over spec-sheet flash):</p>
+
+    <h3>Fish with personality (your kind of fish)</h3>
+    <ul>
+      <li><strong>A clownfish pair</strong> — the iconic reef bond, especially hosting an anemone (added later,
+        once the tank is mature and your light is up to it). Endless character.</li>
+      <li><strong>Wrasses</strong> — busy, curious, brilliantly colored, and each one an individual — very much
+        a "character" fish.</li>
+      <li><strong>Gobies &amp; blennies</strong> — comedians of the reef; a shrimp-goby pair sharing a burrow is
+        pure dive-site charm.</li>
+      <li><strong>A tang</strong> (blue/yellow) — the postcard dive fish, but they need swimming room, so it's a
+        reason a 5-footer earns its keep. One, added thoughtfully.</li>
+      <li><strong>A centerpiece with attitude</strong> — e.g. a dwarf angel or a mandarin (mandarin much later,
+        once the tank grows enough live food). We'll choose the one fish that greets you at the glass.</li>
+    </ul>
+
+    <h3>Corals — the living structure</h3>
+    <p>Start with hardy, beautiful softies and LPS that sway in the flow (the movement is a huge part of the
+      "underwater" feeling), and build a garden of color and texture. SPS (the classic branching Acropora
+      "reef" look) comes much later, as a mature-tank reward — not a first-year goal.</p>
+
+    <div class="why"><b>Let's theme it to your dives.</b> Tell me what your favorite dives actually look like —
+      <span class="divetag">clear tropical Indo-Pacific</span><span class="divetag">anemone gardens</span>
+      <span class="divetag">a specific fish you always look for</span><span class="divetag">coral wall vs. sandy lagoon</span>
+      — and I'll design a stocking list and aquascape that recreates <em>that</em> feeling, respecting each
+      animal's needs and compatibility. That's the chapter I'm most excited to write with you.</div>
+  </section>
+
+  <footer>
+    <p>Pacifica Reef · planning doc v1 · unlisted &amp; unlinked, like Tyosphere.<br/>
+      Living plan — we'll refine tank choice, exact gear, and stocking together as you go.</p>
+  </footer>
+
+</div>
+</body>
+</html>

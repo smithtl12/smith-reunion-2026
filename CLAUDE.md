@@ -118,7 +118,9 @@ These are standing preferences for Claude when helping this user.
     red, yellow) — this dominates; **(2) size** — bigger = easier to spot;
     **(3) movement** — slow cruisers that bank and turn flash their color.
     **Shape is a distant fourth.** A bright, large fish breaks the shape
-    rule: the red-devil angel (Trinity) is tall and thin yet pops
+    rule: the red-devil angel (Eos — the name
+    "Trinity" was later reassigned to an electric blue acara, so it no
+    longer refers to this fish) is tall and thin yet pops
     magnificently and is very easy to spot, and the bright incoming angels
     should too. So the real thing to avoid is **dark or dull side-view
     fish** — silver/drab torpedo fish whose color lives on the flanks
@@ -132,6 +134,28 @@ These are standing preferences for Claude when helping this user.
     more livebearers (swordtails, fancy mollies), killifish, gouramis,
     and gold/white/albino morphs. Rainbowfish have disappointed (side-view
     fish).
+  - **Angels are the EXCEPTION to the pop rule — a curated COLLECTION, not
+    top-down performers.** His angel group (the pantheon) is **deliberately
+    blue-dominant by design** (Philippine Blue / Pinoy / snakeskin / leopard
+    morphs) — all but three are blues, and the three warms are a **grouped
+    trio** chosen to read as a natural family, not scattered odd-ones-out. He
+    prizes **collection harmony** over body-color pop here, so do NOT steer him
+    toward warm angels or off blues. The blues still show top-down via
+    **features, not body color** — red crowns (top-facing), red eyes (a
+    wild-type quality trait, not albino), and snakeskin/leopard patterning.
+    Body-color pop is the SCHOOLERS' job (livebearers, rainbows, denisons);
+    the angels bring the jewelry. He actively hunts blue-based standouts (e.g.
+    a red-crowned Pinoy / "Black Flame" line from CA breeder @nicefishtank).
+  - **Character/boldness delights him as much as color — maybe more (his own
+    realization, summer 2026).** The fish he's *most* delighted by is the
+    **longfin rosy barb**, and NOT for color but for **personality** —
+    fearless, curious, in-your-face, hand-nibbling, greets him at the water;
+    the kind of thing you can't spec from a listing photo. So when advising
+    future stock, weigh **boldness / interactivity FIRST and let color be the
+    tiebreaker**: the winners are **bold, out-in-the-open fish that engage**
+    (barbs, livebearers, the hand-taming pond-born molly "Mayor," the pearl
+    gouramis' calming presence). A shy "pretty statue" disappoints no matter
+    how it looks — it's why the balloon ram he skipped would've been a letdown.
 
 - Style note for drafting candidate emails: the user signs informally as just
   "Tyson" (he is a DO, not an MD — never sign him "MD"), keeps a friendly
