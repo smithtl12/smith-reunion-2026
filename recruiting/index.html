@@ -41,7 +41,7 @@
   <input id="pw" type="password" autocomplete="off" autofocus placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" />
   <button type="submit" id="go">Open tracker &rarr;</button>
   <div class="msg" id="msg"></div>
-  <div class="hint">Ask Tyson for the password.</div>
+  <div class="hint">Ask Tyson for the password. This device remembers it after the first unlock.</div>
 </form>
 
 <script>
@@ -68,6 +68,21 @@
   const form = document.getElementById("gate");
   const msg = document.getElementById("msg");
   const btn = document.getElementById("go");
+  // Auto-unlock if this device has already entered the password once.
+  (async () => {
+    let saved = null;
+    try { saved = localStorage.getItem("acamg_tracker_pw"); } catch (e) {}
+    if (!saved) return;
+    btn.disabled = true; msg.style.color = "#9fd0ef"; msg.textContent = "Unlocking\u2026";
+    try {
+      const html = await unlock(saved);
+      document.open(); document.write(html); document.close();
+    } catch (err) {
+      try { localStorage.removeItem("acamg_tracker_pw"); } catch (e) {}
+      btn.disabled = false; msg.textContent = "";
+    }
+  })();
+
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const pw = document.getElementById("pw").value;
@@ -75,6 +90,7 @@
     btn.disabled = true; msg.style.color = "#9fd0ef"; msg.textContent = "Unlocking\u2026";
     try {
       const html = await unlock(pw);
+      try { localStorage.setItem("acamg_tracker_pw", pw); } catch (e) {}
       document.open(); document.write(html); document.close();
     } catch (err) {
       msg.style.color = "#ff9d9d";
