@@ -156,6 +156,19 @@ These are standing preferences for Claude when helping this user.
     (barbs, livebearers, the hand-taming pond-born molly "Mayor," the pearl
     gouramis' calming presence). A shy "pretty statue" disappoints no matter
     how it looks — it's why the balloon ram he skipped would've been a letdown.
+  - **Novelty/diversity is a primary driver — new species over more-of-the-same
+    (his own words, Aug 2026).** What excites him is adding a *different* species
+    and discovering its distinct personality; the diversity itself is the thrill
+    (the same collector instinct behind the angel pantheon, now his whole
+    stocking ethos). So **lead stocking advice with NEW species that bring a
+    different behavior/character — NOT "bolster the group you already have."**
+    (Complements character-first: a new species = a new personality to meet.)
+    The one guardrail *aligns* with this rather than fighting it: bring new
+    species in as **small groups (6+), not singletons** — genuinely schooling
+    fish still need a shoal to be happy, and the ~1,670-gal tank is big enough to
+    run a **collection of many small shoals** ("a collection of communities"),
+    which serves the novelty drive and fish welfare at once. He already adds in
+    groups instinctively.
 
 - Style note for drafting candidate emails: the user signs informally as just
   "Tyson" (he is a DO, not an MD — never sign him "MD"), keeps a friendly
