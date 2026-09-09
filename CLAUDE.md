@@ -43,6 +43,12 @@ These are standing preferences for Claude when helping this user.
   current page payload (or rebuild the inner HTML), edit the `CANDIDATES`
   array, re-encrypt, commit on a feature branch, push, open a PR, and merge it
   (covered by the standing permission above).
+- **Vetting interpretation rule (Tyson, Sept 2026):** references soft-pedal
+  negatives, so ANY negative in a reference — however glossed over — is likely
+  understated; weight it UP. (Proven by the Abe Cortez case: a secondhand
+  "maybe a little lazy" turned out to be documented schedule-gaming and
+  call-outs.) All-positive reads are the baseline expectation, not a
+  distinguishing signal.
 ## Pond ecosystem tracker — "Tyosphere" (`pond/`)
 
 - `pond/index.html` is a **password-protected, encrypted** pond ecosystem
