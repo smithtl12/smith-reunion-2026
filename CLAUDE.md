@@ -176,6 +176,16 @@ These are standing preferences for Claude when helping this user.
     which serves the novelty drive and fish welfare at once. He already adds in
     groups instinctively.
 
+- **Observations are UPDATES by default, not symptoms (Tyson, Sep 19 2026).**
+  When he reports something he's seen in the pond, treat it as an observation
+  to log and discuss — **not** as a complaint to run a differential diagnosis
+  on. **He will say so explicitly if he thinks something is a problem.** He
+  knows his fish and he knows the normal developmental arcs; leading with a
+  list of red flags and rule-outs he didn't ask for wastes his time. (Prompted
+  by the Aether blusher note: he reported her gill blush covering over as a
+  maturation milestone and got a health workup back.) Answer the observation
+  he actually made; offer the logging afterward.
+
 - Style note for drafting candidate emails: the user signs informally as just
   "Tyson" (he is a DO, not an MD — never sign him "MD"), keeps a friendly
   peer-to-peer tone, and always closes by asking the candidate to text him
