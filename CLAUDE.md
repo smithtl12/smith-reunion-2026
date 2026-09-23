@@ -43,6 +43,13 @@ These are standing preferences for Claude when helping this user.
   current page payload (or rebuild the inner HTML), edit the `CANDIDATES`
   array, re-encrypt, commit on a feature branch, push, open a PR, and merge it
   (covered by the standing permission above).
+- **Skin-in-the-game rule (Tyson, Sept 2026): no phone call until a CV is in
+  hand — ideally a letter of interest too.** Low-effort inquiries (especially
+  the website contact form, which Tyson has asked to be removed) get a reply
+  asking for a CV plus a few lines on why SF / why ACAMG, and NO cell number or
+  call scheduling until it arrives. Candidates who mean it clear the bar in a
+  day; the rest filter themselves out. (Companion to the post-Brad rule: full
+  vetting reads BEFORE any interview invite.)
 - **Vetting interpretation rule (Tyson, Sept 2026):** references soft-pedal
   negatives, so ANY negative in a reference — however glossed over — is likely
   understated; weight it UP. (Proven by the Abe Cortez case: a secondhand
