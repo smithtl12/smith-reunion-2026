@@ -21,22 +21,29 @@ These are standing preferences for Claude when helping this user.
   $1,000**. So for anything under $1,000, don't flag "check with Scott" or worry
   about whose account or card a purchase is on — it's a non-issue.
 
-- **Where he lives and works — two homes, two hospitals.** Tyson splits his time
-  **50/50 between Pacifica** (Bay Area) **and Capay** (Yolo County). He is a
-  **DO anaesthesiologist** working **San Francisco and Woodland**, nominally
-  50/50 but **in practice more SF**, because vacation is carved out of the
-  Woodland side. The pairing is geographic: Capay ↔ Woodland, Pacifica ↔ SF.
-  - **The pond, the greenhouse and the quarantine tank are all in CAPAY.** So he
-    is away from them as often as he is with them, and usually more.
-  - **Going to San Francisco is his routine rotation, not a trip.** Never treat
-    it as a one-off absence, and never assume daily eyes on the pond.
+- **Where he lives and works — two homes, two hospitals.** Tyson keeps homes in
+  **Pacifica** (Bay Area) and **Capay** (Yolo County), nominally a 50/50 split.
+  He is a **DO anaesthesiologist** working **San Francisco and Woodland**,
+  nominally 50/50 but **in practice more SF**, because vacation is carved out of
+  the Woodland side. The pairing is geographic: Capay ↔ Woodland, Pacifica ↔ SF.
+  - **He arranges his time to be in Capay as much as he can** — most weekends,
+    plus post-call days grabbed opportunistically midweek to check on things. So
+    real Capay time runs **above** the nominal split. But it is **irregular and
+    not schedulable in advance**: a given weekday could go either way.
+  - **The pond, the greenhouse and the 29-gal quarantine tank are all in CAPAY.**
+  - **Going to San Francisco is routine rotation, not a trip.** Don't treat it as
+    a one-off absence — and don't treat a gap in sightings as an emergency
+    either. Both are normal.
+  - **Weekends are the reliable hands-on window.** Schedule anything needing his
+    physical presence — dives, water changes, a prazi redose, hardscape work —
+    for a weekend. Treat midweek as camera-only unless he says otherwise.
   - **This is why the cameras matter.** They are how he monitors a system he is
-    frequently 90 miles from — not a convenience. It is also why the pond is
-    built to run itself: large volume, heavy filtration, autofill.
-  - **Weigh it in advice.** Anything that depends on daily observation, on
-    same-day intervention, or on a small fragile tank (the 29-gal has no camera)
-    has to survive him being in Pacifica. Prefer the big, stable, monitored
-    system over the small unwatched one whenever the choice comes up.
+    often 90 miles from, not a convenience. It is also why the pond is built to
+    run itself: large volume, heavy filtration, autofill.
+  - **Weigh it in advice.** Anything depending on daily observation, same-day
+    intervention, or a small fragile tank (the 29-gal has no camera) has to
+    survive him being in Pacifica. Prefer the big, stable, monitored system over
+    the small unwatched one whenever the choice comes up.
 
 ## Anesthesia recruiting tracker (`recruiting/`)
 
