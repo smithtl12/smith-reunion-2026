@@ -21,6 +21,23 @@ These are standing preferences for Claude when helping this user.
   $1,000**. So for anything under $1,000, don't flag "check with Scott" or worry
   about whose account or card a purchase is on — it's a non-issue.
 
+- **Where he lives and works — two homes, two hospitals.** Tyson splits his time
+  **50/50 between Pacifica** (Bay Area) **and Capay** (Yolo County). He is a
+  **DO anaesthesiologist** working **San Francisco and Woodland**, nominally
+  50/50 but **in practice more SF**, because vacation is carved out of the
+  Woodland side. The pairing is geographic: Capay ↔ Woodland, Pacifica ↔ SF.
+  - **The pond, the greenhouse and the quarantine tank are all in CAPAY.** So he
+    is away from them as often as he is with them, and usually more.
+  - **Going to San Francisco is his routine rotation, not a trip.** Never treat
+    it as a one-off absence, and never assume daily eyes on the pond.
+  - **This is why the cameras matter.** They are how he monitors a system he is
+    frequently 90 miles from — not a convenience. It is also why the pond is
+    built to run itself: large volume, heavy filtration, autofill.
+  - **Weigh it in advice.** Anything that depends on daily observation, on
+    same-day intervention, or on a small fragile tank (the 29-gal has no camera)
+    has to survive him being in Pacifica. Prefer the big, stable, monitored
+    system over the small unwatched one whenever the choice comes up.
+
 ## Anesthesia recruiting tracker (`recruiting/`)
 
 - `recruiting/index.html` is a **password-protected, encrypted** candidate
