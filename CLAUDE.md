@@ -81,6 +81,15 @@ These are standing preferences for Claude when helping this user.
   password, salt, 150,000 iterations, 32 bytes). Decrypt it to recover the
   deck instead of asking Tyson to re-upload; RE-ENCRYPT and commit a fresh
   copy after every deck edit. It is deliberately unlinked and opaque.
+- **NEVER send the interview PowerPoint to candidates (Tyson, Oct 2026).**
+  Candidates ask often; the answer is always a polite no. It is not
+  contractually accurate (mistakes happen, numbers are dynamic) and Tyson
+  does not want it circulating on Reddit / Student Doctor Network / web
+  chats. Instead: offer to answer anything from it live with current
+  numbers. (Current comp facts for those answers, confirmed Oct 2026: unit
+  value $51.50; first-year new hires get $46 = exactly 90% — a ~10%
+  first-year reduction, NOT the old "one-third less"; the $500/day
+  availability stipend is full-rate from day one.)
 - **Vetting interpretation rule (Tyson, Sept 2026):** references soft-pedal
   negatives, so ANY negative in a reference — however glossed over — is likely
   understated; weight it UP. (Proven by the Abe Cortez case: a secondhand
