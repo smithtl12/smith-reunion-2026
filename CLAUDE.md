@@ -74,6 +74,13 @@ These are standing preferences for Claude when helping this user.
   call scheduling until it arrives. Candidates who mean it clear the bar in a
   day; the rest filter themselves out. (Companion to the post-Brad rule: full
   vetting reads BEFORE any interview invite.)
+- **The current interview PowerPoint ("ACAMG Tour Guide 2026") is stored
+  ENCRYPTED in this repo at `recruiting/deck.pptx.enc`** so it survives
+  Claude's workspace resets. Format: raw bytes = [16-byte salt][12-byte
+  IV][AES-256-GCM ciphertext + 16-byte tag], key = PBKDF2-SHA256(tracker
+  password, salt, 150,000 iterations, 32 bytes). Decrypt it to recover the
+  deck instead of asking Tyson to re-upload; RE-ENCRYPT and commit a fresh
+  copy after every deck edit. It is deliberately unlinked and opaque.
 - **Vetting interpretation rule (Tyson, Sept 2026):** references soft-pedal
   negatives, so ANY negative in a reference — however glossed over — is likely
   understated; weight it UP. (Proven by the Abe Cortez case: a secondhand
