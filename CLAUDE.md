@@ -81,6 +81,9 @@ These are standing preferences for Claude when helping this user.
   password, salt, 150,000 iterations, 32 bytes). Decrypt it to recover the
   deck instead of asking Tyson to re-upload; RE-ENCRYPT and commit a fresh
   copy after every deck edit. It is deliberately unlinked and opaque.
+  The ASA one-page practice flyer lives the same way at
+  `recruiting/flyer.tar.enc` (a tar of flyer.html + logo.png + the rendered
+  PDF, same cipher format) — same recover/re-encrypt drill after edits.
 - **NEVER send the interview PowerPoint to candidates (Tyson, Oct 2026).**
   Candidates ask often; the answer is always a polite no. It is not
   contractually accurate (mistakes happen, numbers are dynamic) and Tyson
